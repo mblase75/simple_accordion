@@ -11,7 +11,7 @@ $i=1; ?>
     <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading<?=$bID.$i?>">
             <?=$openTag?>
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?=$bID.$i?>" aria-expanded="true" aria-controls="collapse<?=$bID.$i?>">
+                <a data-toggle="collapse" data-parent="#vivid-simple-accordion-<?php echo $bID?>" href="#collapse<?=$bID.$i?>" aria-expanded="true" aria-controls="collapse<?=$bID.$i?>">
                     <?=$item['title']?>
                 </a>
             <?=$closeTag?>
